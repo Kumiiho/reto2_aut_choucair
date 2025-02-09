@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/cucumber.feature",
+        features = "src/test/resources/features/purchase_value.feature",
         glue = {"com.co.choucair.stepdefinitions"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-public class runner {
+public class PurchaseValueRunner {
 
 }
