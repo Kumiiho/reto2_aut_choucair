@@ -1,31 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Test" skipped="0" tests="1" time="0.14" timestamp="2025-02-09 01:27:24"><testcase name="Valor de compra celular y monitor"><error message="Step [Realizar un pedido] is defined with 0 parameters at 'com.co.choucair.stepdefinitions.PurchaseValueStepDefinitions.realizarUnPedido()'.&#10;However, the gherkin step has 1 arguments:&#10; * Table:&#10;      | name   | country  | city   | creditcard       | month | year |&#10;      | Test t | Colombia | Bogota | 4525933278704044 | 10    | 2026 |&#10;&#10;Step text: Realizar un pedido" type="io.cucumber.core.exception.CucumberException">Step [Realizar un pedido] is defined with 0 parameters at 'com.co.choucair.stepdefinitions.PurchaseValueStepDefinitions.realizarUnPedido()'.
-However, the gherkin step has 1 arguments:
- * Table:
-      | name   | country  | city   | creditcard       | month | year |
-      | Test t | Colombia | Bogota | 4525933278704044 | 10    | 2026 |
-
-Step text: Realizar un pedido</error><system-err>Step [Realizar un pedido] is defined with 0 parameters at 'com.co.choucair.stepdefinitions.PurchaseValueStepDefinitions.realizarUnPedido()'.
-However, the gherkin step has 1 arguments:
- * Table:
-      | name   | country  | city   | creditcard       | month | year |
-      | Test t | Colombia | Bogota | 4525933278704044 | 10    | 2026 |
-
-Step text: Realizar un pedido&#13;
-io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)&#13;
-io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)&#13;
-io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
-io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
-io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
-io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
-io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
-io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
-io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
-io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
-io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
-io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
-io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Test" skipped="0" tests="1" time="2.78" timestamp="2025-02-09 06:03:26"><testcase name="Valor de compra celular y monitor"><error message="Cannot invoke &quot;Object.getClass()&quot; because &quot;object&quot; is null" type="java.lang.NullPointerException">Cannot invoke "Object.getClass()" because "object" is null</error><system-err>Cannot invoke "Object.getClass()" because "object" is null&#13;
+net.thucydides.core.steps.StepFactory.injectOtherDependenciesInto(StepFactory.java:208)&#13;
+net.thucydides.core.steps.StepFactory.instantiateUniqueStepLibraryFor(StepFactory.java:227)&#13;
+net.thucydides.core.steps.StepFactory.getUniqueStepLibraryFor(StepFactory.java:155)&#13;
+com.co.choucair.task.GoToCart.on(GoToCart.java:41)&#13;
+com.co.choucair.stepdefinitions.PurchaseValueStepDefinitions.realizarUnPedido(PurchaseValueStepDefinitions.java:46)&#13;
+✽.Realizar un pedido(file:///C:/Users/avargasre/Documents/Projectos%20de%20estudio/Java/Reto1_ScreenPlay/Projects/reto2_aut_choucair/src/test/resources/features/purchase_value.feature:10)&#13;
 </system-err></testcase></testsuite>

@@ -10,5 +10,6 @@ public class Constants {
             .located(By.xpath("//a[text()='Home ']"));
     public static final Target CART = Target.the("Boton ir carrito")
             .located(By.xpath("//a[text()='Cart']"));
+    public static final String CONFIRMPURCHASE = "Thank you for your purchase!";
 }
 
